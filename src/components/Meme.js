@@ -2,6 +2,7 @@ import React from "react"
 import memesData from "../memesData"
 
 function Meme(){
+    //Get a random meme
     function randomMeme(){
         const memesArray = memesData.data.memes
         const randNum = Math.floor(Math.random() * memesArray.length)
