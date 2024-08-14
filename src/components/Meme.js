@@ -13,18 +13,25 @@ function Meme(){
     return(
         <main>
             <div className="form">
-                <input 
-                    id="top-text"
-                    className="form--input"
-                    type="text"
-                    placeholder="Top text">
-                </input>
-                <input
-                    id="bottom-text" 
-                    className="form--input"
-                    type="text"
-                    placeholder="Bottom text">
-                </input>
+                <div className="form--label">
+                    <label className="form--label--text">Top text</label>
+                    <input 
+                        id="top-text"
+                        className="form--input"
+                        type="text"
+                        placeholder="Top text">
+                    </input>
+                </div>
+                <div className="form--label">
+                    <label className="form--label--text">Bottom text</label>
+                    <input
+                        id="bottom-text" 
+                        className="form--input"
+                        type="text"
+                        placeholder="Bottom text">
+                    </input>
+                </div>
+
                 <button onClick={randomMeme} className="form--button">
                     Get a new meme image 🖼
                 </button>

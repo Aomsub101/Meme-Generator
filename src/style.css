@@ -12,6 +12,7 @@ body{
 main{
     padding: 30px;
 }
+
 .header{
     height: 65px;
     background-image:linear-gradient(to right,#672280, #A626D3);
@@ -39,7 +40,7 @@ main{
 
 .form{
     display:grid;
-    grid-template: 40px 40px / 1fr 1fr;
+    grid-template: 54.64px 40px / 1fr 1fr;
     gap: 17px;
 }
 
@@ -60,4 +61,14 @@ main{
     border-radius: 5px;
     height:35px;
     text-indent: 5px;
+}
+
+.form--label{
+    display:flex;
+    flex-direction: column;
+}
+
+.form--label--text{
+    margin-bottom: 3px;
+    font-size: 0.875rem
 }
